@@ -1,0 +1,56 @@
+{
+  "name": "right-sidebar",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Right Sidebar Is The Beautiful side navigation Template for Bootstrap 4.",
+  "keywords": [
+    "sidebar",
+    "sidebar-template",
+    "sidebar page",
+    "sidebar page Template",
+    "Bootstrap 4 Template",
+    "Bootstrap 4",
+    "HTML",
+    "SCSS",
+    "CSS",
+    "Bootstrap",
+    "responsive",
+    "theme",
+    "template",
+    "right sidebar"
+  ],
+  "homepage": "https://orbitthemes.com/downloads/right-sidebar/",
+  "author": "Orbit Themes <themesorbit@gmail.com> (https://orbitthemes.com)",
+  "bugs": {
+    "url": "https://github.com/orbitthemes/right-sidebar/issues",
+    "email": "themesorbit@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Sandeep Prasad Bhatt",
+      "email": "sandeep.bhatt59@gmail.com",
+      "url": "http://sandeepbhatt.com.np/"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orbitthemes/right-sidebar.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "2.24.4",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "3.9.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "4.0.1",
+    "gulp-uglify": "3.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "4.1.1",
+    "font-awesome": "4.7.0",
+    "jquery": "3.3.1",
+    "popper.js": "1.14.3"
+  }
+}

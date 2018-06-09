@@ -1,0 +1,99 @@
+/*
+Theme Name: Right Sidebar
+Theme URI: https://www.orbitthemes.com
+Author: Sandeep Prasad Bhatt
+Author URI: http://www.sandeepbhatt.com.np
+Description: Right Sidebar - Right Toggle Sidebar
+Create date: April 10, 2018
+Version: 1.0
+License: Commercial, All rights reserved - orbitthemes.com
+Tags: Responsive Bootstrap 4 template , bootstrap 4 starter template, bootstrap4 template, simple template
+Text Domain: orbitthemes.com
+*/
+
+#main {
+    background: $white;
+    padding-right: 0;
+    @include transitionProperty(all 0.5s ease);
+    &.toggled {
+        padding-right: 250px;
+        #sidebar {
+            width: 250px;
+        }
+    }
+    #sidebar {
+        z-index: 1000;
+        position: fixed;
+        right: 250px;
+        width: 0;
+        height: 100%;
+        margin-right: -250px;
+        overflow-y: auto;
+        background: $info;
+        color: $white;
+        @include transitionProperty(all 0.5s ease);
+        .sidebar-nav {
+            position: absolute;
+            top: 0;
+            width: 250px;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            li {
+                &.sidebar-brand {
+                    font-size: 1.5rem;
+                    padding-top: 10px;
+                }
+                text-indent: 20px;
+                line-height: 40px;
+                a {
+                    display: block;
+                    text-decoration: none;
+                    color: $white;
+                    .badge {
+                        display: inline;
+                        margin-right: 5px;
+                    }
+                    &:hover {
+                        text-decoration: none;
+                        color: $white;
+                        background: rgba(255, 255, 255, 0.2);
+                    }
+                    &:active,
+                    &:focus {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+    #page-content {
+        width: 100%;
+        padding: 15px;
+        overflow: auto;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    #main {
+        padding-right: 0;
+        .toggled {
+            padding-right: 250px;
+            #sidebar {
+                width: 250px;
+            }
+            #page-content {
+                position: relative;
+                margin-right: 0;
+            }
+        }
+        #sidebar {
+            width: 0;
+        }
+        #page-content {
+            padding: 20px;
+            position: relative;
+            padding: 5rem 0;
+        }
+    }
+}
