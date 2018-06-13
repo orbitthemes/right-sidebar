@@ -68,7 +68,7 @@ After installation, run `npm install` and then run `gulp dev` which will open up
 - `gulp css:compile` compiles the SCSS into CSS file.
 - `gulp css:minify` minifies the compiled CSS file.
 - `gulp css` compiles SCSS files into CSS and minify the css.
-- `gulp js:minify` minifies the JS file for the template.
+- `gulp js` Combines all js scripts to one file named `main.js`, Minify the file, and save it as `main.min.js`.
 - `gulp export` copies dependencies from node_modules to the dist directory.
 - `gulp clean` Removes all the directories inside dist, minified js files and all compiled css files.
 
@@ -80,8 +80,23 @@ Have a bug or an issue with this template? [Open a new issue](https://github.com
 
 You can hire Orbit Themes to create a custom build of any template, or create something from scratch using Bootstrap. For more information, visit the **[Contact Page](https://orbitthemes.com/contact/)**.
 
-<!-- ## Other Templates -->
-<!-- List Other Templates Of Orbit Themes -->
+## Other Templates
+
+- [Album Plus](https://orbitthemes.com/downloads/album-plus) - Album Plus is a Simple Photography and Magazine template for Bootstrap 4.
+- [Blog](https://orbitthemes.com/downloads/blog) - Blog Is The Beautiful Blogger Template For Bootstrap 4.
+- [Blog Post](https://orbitthemes.com/downloads/blog-post) - Beautiful Blog Post Template for Bootstrap 4.
+- [My Shop](https://orbitthemes.com/downloads/my-shop) - My Shop is a Simple E-Commerce template for Bootstrap 4.
+- [Carousel Plus](https://orbitthemes.com/downloads/carousel-plus) - Clean and Responsive Bootstrap 4 slideshow Template.
+- [Checkout Plus](https://orbitthemes.com/downloads/checkout-plus) - Simple, Clean and Stylish Bootstrap 4 Checkout Page Template.
+- [Cover Plus](https://orbitthemes.com/downloads/cover-plus) - Cover Plus Is The Beautiful One Page Template for Bootstrap 4.
+- [Dashboard](https://orbitthemes.com/downloads/dashboard) - Free and Responsive admin dashboard template for bootstrap 4.
+- [Healthy](https://orbitthemes.com/downloads/healthy) - Clean Responsive Fitness Landing Page For Bootstrap 4.
+- [Kreative](https://orbitthemes.com/downloads/kreative) - Kreative Business Landing Page Template.
+- [Pricing Plus](https://orbitthemes.com/downloads/pricing-plus) - Clean and Responsive Pricing Page Template With High Quality UI.
+- [Jumbotron](https://orbitthemes.com/downloads/jumbotron) - Jumbotron Simple and Clean Marketing Landing Page.
+- [Register](https://orbitthemes.com/downloads/register) - Simple and Clean Signup Template For Bootstrap 4.
+- [Scroll Nav](https://orbitthemes.com/downloads/scroll-nav) - Simple and Responsive Scrolling Navigation Website Template For Bootstrap 4.
+- [SignIn](https://orbitthemes.com/downloads/signin) - Simple and Clean SignIn Template For Bootstrap 4.
 
 <!-- ## Useful Links -->
 <!-- OrbitThemes Blog Post Links Related To the Template. -->
@@ -132,7 +147,6 @@ Orbit Theme Templates and Themes are based on the [Bootstrap](http://getbootstra
 * [jQuery](http://jquery.com/)
 * [Bootstrap](http://getbootstrap.com/)
 * [SASS](https://sass-lang.com/)
-* [Pexels](https://www.pexels.com/)
 
 ## Copyright and License
 
